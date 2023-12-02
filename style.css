@@ -1,0 +1,411 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+html{
+	font-family: montserrat;
+}
+body{
+	width: 100%;
+}
+header{
+	background-color:orangered;
+	height: 700px;
+}
+nav{
+	background-color: rgb(253, 253, 253);
+	position: fixed;
+	right: 75px;
+	z-index: 1;
+	border-radius: 10px;
+}
+.nav-bar{
+	display: flex;
+	height: 30px;
+	padding-top: 30px;
+/*	padding: 10px;*/
+	width: 95%;
+	margin: auto;
+	justify-content: space-between;
+	
+}
+
+.nav-bar #logo img{
+	height: 35px;
+/*	justify-content: flex-start;*/
+	position: fixed;
+	top: 20px;
+	border-radius: 10px;
+	
+}
+
+.nav-bar nav ul{
+	display: flex;
+	text-transform: uppercase;
+	list-style: none;
+	padding-top: 5px;
+	padding-right: 10px;
+	
+}
+
+.nav-bar nav ul li a{
+	text-decoration: none;
+	color: black;
+	display: flex;
+	font-size: 12px;
+}
+
+.nav-bar nav ul li a:hover{
+	background-color: black;
+	color: white;
+}
+
+.nav-bar nav ul li{
+	display: flex;
+	padding-left: 20px;
+	justify-content: flex-end;
+}
+
+.nav-bar nav ul #line{
+	width: 2px;
+	height: 15px;
+	background-color: black;
+}
+
+#profile{
+/*	border-style: solid;*/
+	height: 400px;
+	padding: 70px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+#profile #name{
+/*	border-style: solid;*/
+	position: relative;
+	width: 700px;
+/*	height: 20vh;*/
+}
+#profile #name h1{
+	font-size: 50px;
+}
+#profile #Profile-img{
+/*	border-style: solid;*/
+	position: relative;
+	width: 600px;
+	height: 400px;
+	
+}
+#profile #name span{
+
+}
+
+#profile #name span a{
+	border-style: solid;
+	position: relative;
+	top: 30px;
+	padding: auto;
+	text-decoration: none;
+	font-size: 20px;
+	color: black;
+	
+}
+
+/*MAIN*/
+.about{
+	background-color: white;
+	color: black;
+	font-size: 20px;
+	padding: 150px;
+}
+
+.about h2{
+	font-size: 40px;
+	color: red;
+}
+
+.about #audio{
+/*	border-style: solid;*/
+	width: 400px;
+	height: 150px;
+	
+}
+
+.about #audio #audio-text{
+	width: 380px;
+	display: flex;
+	justify-content: space-between;
+}
+.about #audio #audio-text #box{
+	border-style: solid;
+	border-style: ;
+	font-size: 12px;
+	width: 60px;
+	text-align: center;
+	padding: 3px;
+/*	justify-content: flex-end;*/
+}
+
+#audio-title{
+	color: red;
+}
+/*experience*/
+.experience{
+	padding: 10px;
+	background-color: ghostwhite;
+	color: black;
+/*	font-size: 20px;*/
+	font-size: 14px;
+	
+}
+
+.experience #box{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	padding-right: 250px;
+	padding-left: 250px;
+	padding-top: 100px;
+	padding-bottom: 150px;
+}
+
+.experience #bigbox{
+/*	border-style: solid;*/
+	width: 550px;
+	line-height: 30px;
+	position: relative;
+	bottom: -90px;
+}
+
+.experience #smallbox{
+	width: 300px;
+	line-height: 80px;
+}
+
+.experience #smallbox span{
+	color: red;
+}
+
+.experience h2{
+	color: red;
+	display: flex;
+	font-size: 40px;
+}
+
+/*WORKS*/
+.works{
+	color: white;
+}
+
+.container1{
+	background-color: darkblue;
+	height: 700px;
+}
+
+.container2{
+	background-color: black;
+	height: 700px;
+}
+
+.container3{
+	background-color: purple;
+	height: 700px;
+}
+
+.container4{
+	background-color: darkslateblue;
+	height: 700px;
+}
+
+.container5{
+	background-color: darkred;
+	height: 700px;
+}
+
+.container6{
+	background-color: darkgrey;
+	height: 700px;
+}
+
+#pen{
+	line-height: 50px;
+	width: 400px;
+	padding: 80px 150px 80px 150px;
+}
+/*clients*/
+.clients{
+	height: 500px;
+	color: white;
+	padding: 50px 200px 50px 200px;
+}
+
+.clients #cl{
+	color:red;
+	font-size: 20px;
+}
+
+.clients img{
+	align-items: center;
+	justify-content: center;
+}
+footer{
+	height: 300px;
+	background-color: white;
+	align-items: center;
+	padding: 200px;
+	display: flex;
+	justify-content: space-between;
+	flex-direction: row;
+}
+footer #left{
+	width: 500px;
+
+}
+footer #right{
+	text-transform: capitalize;
+	text-decoration: none;
+	line-height: 40px;
+	color: black;
+}
+footer #right ul li a{
+	list-style: none;
+	color: black;
+	text-decoration: none;
+	list-style: none;
+}
+footer #right ul li a :hover{
+	background-color: red;
+	color: white;
+}
+footer #left h1{
+	line-height: 50px;
+}
+footer #left #touch{
+	border-style: solid;
+	border-radius: 10px;
+	height: 30px;
+	width: 150px;
+	text-align: center;
+	padding-top: 15px;
+}
+footer #left #touch a{
+	color: black;
+	text-decoration: none;
+}
+#copy{
+	text-align: center;
+	padding: 20px;
+	background-color: whitesmoke;
+}
+
+
+.container{
+    width: 100%;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: auto;
+    min-height: 100vh;
+    position: relative;
+	margin-bottom: 100px;
+
+
+}
+.accordion-item{
+	width: 500px;
+    border: 2px solid rgb(3, 9, 43);
+    margin-bottom: 10px;
+	margin-top: 10px;
+}
+.accordion-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+    height: 50px;
+    background-color: rgba(13, 25, 131, 0.363);
+}
+
+.accordion-header button{
+    font-size: 2rem;
+    outline: none;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+.accordion-item .accordion-content{
+    padding: 10px;
+    line-height: 2;
+    font-weight: 500;
+    font-size: 1rem;
+    display: none;
+	color: black;
+}
+
+.accordion-item.active .accordion-content{
+    /* display: block; */
+
+}
+
+#contact-form input{
+    width: 95%;
+    height: 40px;
+    /* text-transform: uppercase; */
+    padding-left: 10px;
+    font-weight: 500;
+    border: 1px solid gray;
+    margin-bottom: 10px;
+}
+
+#contact-form input[name="fullname"]{
+    text-transform: capitalize;
+}
+
+#contact-form input::placeholder{
+    text-transform: capitalize;
+    font-weight: 500;
+}
+#contact-form textarea{
+    width: 95%;
+    padding: 10px;
+    font-weight: 500;
+    border: 1px solid gray;
+    margin-bottom: 10px;
+}
+#contact-form input[type="submit"]{
+    font-weight: 500;
+}
+
+#colorFlipper{
+	width: 100%;
+	height: 500px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: whitesmoke;
+	box-sizing: border-box;
+	margin: 0px;
+	padding: 0px;
+	
+}
+
+button{
+	font-family: montserrat;
+	height: 50px;
+	width: 200px;
+	background-color: black;
+	color: whitesmoke;
+	border-radius: 50px;
+	cursor: pointer;
+}
+
+@media (max-width:600px){
+    html{
+        font-size: 14px;
+    }
+    .container{
+        width: 100%;
+        max-width: 300px;
+    }
+}
